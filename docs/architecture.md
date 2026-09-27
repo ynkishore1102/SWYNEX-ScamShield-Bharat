@@ -197,8 +197,9 @@ a guarantee that submitted content is fraudulent or safe.
                       v
                POSTGRESQL
                  DATABASE
+## 9. Application Flow
 
-**9. Application Flow**
+```text
 User
  |
  v
@@ -228,28 +229,37 @@ Message Check     URL Check
            |
            v
    Save to History
+```
 
+---
 
-10. Technology Stack
-Frontend
+## 10. Technology Stack
+
+### Frontend
 - React.js
 - HTML
 - CSS
 - JavaScript
-Backend
+
+### Backend
 - Python
 - FastAPI
-Database
+
+### Database
 - PostgreSQL
-Authentication
+
+### Authentication
 - JWT
-Development Tools
+
+### Development Tools
 - Git
 - GitHub
 - VS Code
 
-11. Future Scope
-Future versions can include:
+---
+
+## 11. Future Scope
+
 - Screenshot analysis using OCR
 - QR code analysis
 - Machine-learning-based risk classification
@@ -259,9 +269,13 @@ Future versions can include:
 - Browser extension
 - Mobile application
 
-12. Conclusion
+---
+
+## 12. Conclusion
+
 ScamShield Bharat provides a simple and explainable approach for helping
 users evaluate suspicious digital content.
+
 The proposed architecture separates the frontend, backend, risk-analysis
 logic and database so that the application can be developed and expanded
 in a structured manner.
